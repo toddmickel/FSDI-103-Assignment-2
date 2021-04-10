@@ -2,10 +2,11 @@ body{
     font-family: 'New Tegomin', serif;
     background-color:aliceblue
 }
+
 table{
     border: 3px inset rgb(63, 63, 63);
     border-collapse: collapse;
-    margin:1rem;
+    margin:1rem auto 1rem auto;
     table-layout:fixed;
     width:90%;
 }
