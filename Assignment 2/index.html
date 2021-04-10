@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSDI 103-Assignment 2</title>
+    <script type="text/JavaScript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>FSDI 103-Assignment 2</h1>
+
+    <h2>Programming Fundamentals - JavaScript</h2>
+    <p>Create a program where:</p>
+    <ul>
+        <li>The user can enter information such as product's name, quantity, price and the program should display the info on the console. Use the prompt to get the required information.</li>
+        <li>The system should calculate the final price adding taxes (like in Mexico 16% of taxes).</li>
+        <li>Use the Number() function.</li>
+        <li>Just for funsies, I also messed around with JS to determine how to have it build a table on the website that populates every time an entry is made.</li>
+        <li>Go ahead and do multiple entries and watch the table grow!</li>
+        <li>This code is fairly robust when it comes to handling numeric entries.  Although it doesn't handle NaN entries for quantity and price, it will strip all characters that aren't numbers or periods from those entries.</li>
+    </ul>
+    <br>
+    <p>To start, press CTRL+SHIFT+J (or CMD-SHIFT-J on a Mac) to open your browser's JavaScript console and click the button below:</p>
+    <div class="button-section">
+        <button type="button"onclick="startAssign()">Enter Purchase</button>
+    </div>
+    
+    <table>
+        <tbody>
+            <tr>
+                <th class="name">Product Name</th>
+                <th class="quan">Quantity</th>
+                <th class="price">Unit Price</th>
+                <th class="sub">Subtotal</th>
+                <th class="tax">Tax Rate</th>
+                <th class="total">Total Cost</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

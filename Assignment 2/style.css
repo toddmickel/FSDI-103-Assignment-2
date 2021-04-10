@@ -1,0 +1,54 @@
+body{
+    font-family: 'New Tegomin', serif;
+    background-color:aliceblue
+}
+table{
+    border: 3px inset rgb(63, 63, 63);
+    border-collapse: collapse;
+    margin:1rem;
+    table-layout:fixed;
+    width:90%;
+}
+td,th{
+    border:2px solid rgb(63, 63, 63);
+    text-align: center;
+    font-weight: bold;
+}
+th{
+    background-color:bisque;
+}
+tr:nth-child(odd){
+    background-color:white;
+}
+tr:nth-child(even){
+    background-color:lightgray
+}
+.name{
+    width:40%;
+}
+.quan{
+    width:10%;
+}
+.price{
+    width:15%;
+}
+.sub{
+    width:20%;
+}
+.tax{
+    width:10%;
+}
+.total{
+    width:30%;
+}
+button{
+    width:20rem;
+    height:5rem;
+    font-size:2rem;
+    border:2px solid black;
+    margin:1rem 0 2rem 0;
+    font-family: inherit;
+}
+.button-section{
+    text-align: center;
+}
